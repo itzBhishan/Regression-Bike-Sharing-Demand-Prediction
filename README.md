@@ -190,7 +190,7 @@ Null hypothesis: The mean number of bike rentals during daytime and nighttime is
 Alternative hypothesis: The mean number of bike rentals during daytime and nighttime is significantly different.
 -Method: Independent t-test (two-sample t-test) is used to compare the Mean bike rental during daytime and nighttime.
 -Result : The resulting p-value from the t-test is compared to a significance level (usually 0.05) to make a conclusion. If the p-value is less than the significance level, we reject the null hypothesis and conclude that there is a significant difference. Otherwise, if the p-value is greater than or equal to the significance level, we fail to reject the null hypothesis and conclude that there is no significant difference.
-Feature Engineering & Data Pre-processing
+# Feature Engineering & Data Pre-processing
 The code provided demonstrates several steps of feature engineering.
 Handling missing values : There are no missing values in given dataset.
 Handling outliers :In this case, the code indicates that there are a few outliers present in the 'Rented Bike Count' variable. However, it states that these outliers will not be removed at the moment, as they could be important data points.
@@ -203,15 +203,20 @@ Feature engineering refers to creating new features or transforming existing fea
 Removing irrelevant or unnecessary columns from the dataset can be beneficial for the machine learning model. It helps in reducing noise, improving computational efficiency, and focusing on the most relevant features that contribute to the target variable.
 5) Feature Selection: It involves selecting the most relevant and informative features from the available set of features. By selecting the right set of features, we can reduce the complexity of the model, improve interpretability, and mitigate the risk of overfitting.
 The purpose of this code snippet is to select the top 5 features based on the f_regression scores, which measure the relationship between each feature and the target variable. By selecting the most relevant features, you aim to reduce the risk of overfitting and improve the model's performance.
-6)Data Transformation : By applying this transformation, you can achieve a more symmetric and normalized distribution of the 'Rented Bike Count' variable, which can be beneficial for certain statistical analyses or machine learning models that assume normality or require input variables to have a specific range or distribution.
-Handling Imbalanced data : To address the class imbalance, various techniques can be employed, such as oversampling (generating synthetic examples for minority classes) or undersampling (reducing the number of instances from the majority class). These techniques aim to balance the dataset and provide more representative training data for the model.
+# Data Transformation : 
+By applying this transformation, you can achieve a more symmetric and normalized distribution of the 'Rented Bike Count' variable, which can be beneficial for certain statistical analyses or machine learning models that assume normality or require input variables to have a specific range or distribution.
+Handling Imbalanced data :
+To address the class imbalance, various techniques can be employed, such as oversampling (generating synthetic examples for minority classes) or undersampling (reducing the number of instances from the majority class). These techniques aim to balance the dataset and provide more representative training data for the model.
 the observed class imbalance in the dataset indicates the need for addressing this issue to ensure fair and accurate predictions when training a machine learning model on this data.
 Unsampling: This approach of upsampling the minority class aims to balance the class distribution and provide equal representation of both classes during the model training process. By having a balanced dataset, the machine learning model can learn from all classes effectively and produce more accurate and unbiased predictions.
 the code snippet currently updates the 'train_df' DataFrame with the upsampled data. It's important to consider how this impacts the overall data handling and model training process, such as whether further splitting of the dataset into training and validation sets is needed and whether additional preprocessing steps are required.
-Data Scaling : This scaling process ensures that the variables are on a similar scale, which can be beneficial for various machine learning algorithms that are sensitive to the magnitude of variables.
+# Data Scaling :
+This scaling process ensures that the variables are on a similar scale, which can be beneficial for various machine learning algorithms that are sensitive to the magnitude of variables.
 the 'train_df' DataFrame exists, and the specified columns ('Temperature(°C)', 'Wind speed (m/s)', 'Humidity(%)') are present. Additionally, it's important to ensure that the scaling is performed consistently across the training, validation, and test sets, if applicable, to avoid data leakage and maintain consistency in the scaling process.
-Dimesionality Reduction: it does not require dimensionality reduction, you can proceed without applying such techniques. 
-Data Splitting : Splitting the data into training and testing sets is an important step in machine learning. The training set is used to train the model, while the testing set is used to evaluate the model's performance on unseen data. The choice of the splitting ratio depends on various factors, such as the size of the dataset and the specific requirements of the analysis. In this case, a test_size of 0.2 indicates an 80:20 split, which is a commonly used ratio. Adjusting the test_size value allows you to control the trade-off between the size of the training set and the size of the testing set.
+# Dimesionality Reduction: 
+It does not require dimensionality reduction, you can proceed without applying such techniques. 
+# Data Splitting :
+Splitting the data into training and testing sets is an important step in machine learning. The training set is used to train the model, while the testing set is used to evaluate the model's performance on unseen data. The choice of the splitting ratio depends on various factors, such as the size of the dataset and the specific requirements of the analysis. In this case, a test_size of 0.2 indicates an 80:20 split, which is a commonly used ratio. Adjusting the test_size value allows you to control the trade-off between the size of the training set and the size of the testing set.
 Handling Imbalanced Dataset :
 # ML Model - 1---RandomForestRegressor
 Basically, this code provides a basic implementation of a Random Forest regression model for prediction and evaluation. You can further enhance the model by tuning hyperparameters, performing cross-validation, and exploring other evaluation metrics based on your specific needs and the characteristics of the dataset.
