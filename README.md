@@ -60,12 +60,12 @@ By performing these data transformations, the code prepares the dataset for furt
 
 # Data Visualization,
 # Chat 1: Univariate Analysis of Target Variable
-Reason for picking the chart: histograms provide a visual representation of the distribution of a dataset, helping us understand the underlying patterns, identify outliers, and make informed decisions during data exploration and modeling.
-INSIGHT : 
+**Reason for picking the chart**: histograms provide a visual representation of the distribution of a dataset, helping us understand the underlying patterns, identify outliers, and make informed decisions during data exploration and modeling.
+**INSIGHT** : 
 Right-skewed distribution of the target variable, bikes fell towards the lower end of the scale, with a few exceptions having a high rental count.
 histogram's peak falls between 0 and 1000 bike rentals per hour.
 the target variable is not normally distributed,
-Business impact: by understanding the patterns and characteristics of bike rental demand, the business can make informed decisions to improve its operations and maximize customer satisfaction.
+**Business impact**: by understanding the patterns and characteristics of bike rental demand, the business can make informed decisions to improve its operations and maximize customer satisfaction.
 
 
 
