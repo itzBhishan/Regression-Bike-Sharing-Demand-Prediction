@@ -1,28 +1,34 @@
 # Regression-Bike-Sharing-Demand-Prediction
 
 
-Project Overview: This project seeks to utilize regression analysis techniques to forecast the demand for bike sharing services, considering multiple factors. By examining past data and constructing a predictive model, we aim to offer valuable insights and predictions to assist bike sharing companies in making informed decisions and enhancing their operational efficiency.
+# Project Overview: This project seeks to utilize regression analysis techniques to forecast the demand for bike sharing services, considering multiple factors. By examining past data and constructing a predictive model, we aim to offer valuable insights and predictions to assist bike sharing companies in making informed decisions and enhancing their operational efficiency.
 
 
-Problem Statement: Prediction of bike count required at each hour for the stable supply of rental bikes.
+# Problem Statement: 
+Prediction of bike count required at each hour for the stable supply of rental bikes.
 General guideline : 
  
-Import Libraries: This section includes the necessary libraries and packages imported for data analysis and visualization, data preprocessing, model training, evaluation, and visualization.
-Dataset Loading :	load a data set from a Google Drive location using Google Colab. It mounts Google Drive and then reads the CSV file named "SeoulBikeData.csv" using pd.read_csv() from the pandas library. 
+# Import Libraries: 
+This section includes the necessary libraries and packages imported for data analysis and visualization, data preprocessing, model training, evaluation, and visualization.
+# Dataset Loading :
+load a data set from a Google Drive location using Google Colab. It mounts Google Drive and then reads the CSV file named "SeoulBikeData.csv" using pd.read_csv() from the pandas library. 
  
  .sample is used to display the random rows .
 Data.shape is used to display the no of rows and col.The dataset contains 8760 rows and 14 columns’
-Dataset information : To provide detailed information about the dataset, we can use the data.info() method. It provides an overview of the columns, their data types, and the number of non-null values.
+# Dataset information : 
+To provide detailed information about the dataset, we can use the data.info() method. It provides an overview of the columns, their data types, and the number of non-null values.
  
-Duplicate Values : The information does not mention any duplicate values in the dataset.
+# Duplicate Values : 
+The information does not mention any duplicate values in the dataset.
  
-Missing Values/Null Values: The table shows the number of missing values (null values) in each column of the dataset. There is no missing/ null value in our dataset.
-# Visualizing the missing values : it creates a heatmap visualization of missing values.The missing values are represented by a distinct color, allowing to identify the presence of missing values in the dataset visually. But there is no missing/ null value in our dataset.
+# Missing Values/Null Values:
+The table shows the number of missing values (null values) in each column of the dataset. There is no missing/ null value in our dataset.
+# Visualizing the missing values : 
+it creates a heatmap visualization of missing values.The missing values are represented by a distinct color, allowing to identify the presence of missing values in the dataset visually. But there is no missing/ null value in our dataset.
  
 What did you know about your dataset?
 We have already discuss about this.
  
-Understanding Variable name
 Data.columns display the coln name
 data.describe(include='all') The describe method is used to generate descriptive statistics of the data within the DataFrame.
 It would provide summary statistics for each column, including count, mean, standard deviation, minimum, quartiles, and maximum values for numeric columns. For non-numeric columns, it would include the count, unique values, top (most frequent) value, and frequency of the top value.
@@ -32,7 +38,7 @@ Unique Values for each variable.
 Check Unique Values for each variable.
 This loop will iterate over each column in data.columns.tolist() and print a statement indicating the number of unique values in that column.
 
-Data Wrangling: 
+# Data Wrangling: 
 This section focuses on several data transformations and preparations are performed to make the dataset analysis-ready
 Convert 'datetime' column to datetime object:
 The 'datetime' column is converted from a string format to a datetime object using the pd.to_datetime() function.
@@ -47,7 +53,7 @@ Check unique values for categorical variables:
 The unique values for the categorical variables 'Seasons', 'Holiday', and 'Functioning Day' are printed using the .unique() method.
 
 
-What all manipulations have you done and insights you found?
+# What all manipulations have you done and insights you found?
 By performing these data transformations, the code prepares the dataset for further analysis by converting datetime-related information into separate features and ensuring appropriate data types for categorical variables.
 
 
