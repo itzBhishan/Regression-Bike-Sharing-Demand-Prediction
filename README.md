@@ -73,111 +73,132 @@ the target variable is not normally distributed,
 
 
 # Chart 2: Count of bike rentals per season
-Reason for picking the chart: Using a bar plot allows for a clear representation of the distribution of bike rentals across different seasons, making it easier to identify any seasonal trends or differences in rental counts.
-	Insights : 
+**Reason for picking the chart**: Using a bar plot allows for a clear representation of the distribution of bike rentals across different seasons, making it easier to identify any seasonal trends or differences in rental counts.
+
+**Insights** : 
 Bike rentals were highest during the summer season, with autumn, spring, and winter following in descending order.
 The season has a substantial influence on bike rental counts, presenting an opportunity to enhance bike rental services based on this understanding.
-Business impact: 
+
+**Business impact**: 
 Positive Impact: when bike rentals are at their highest during the peak season can help businesses plan their marketing initiatives.
 In terms of negative development, it's possible that the data analysis's insights will point out areas where the company isn't performing as well as it should.
 # Chart 3: Count of bike rentals per month
-Reason for picking chart : 
+**Reason for picking chart** : 
 Line chat display data points connected by a line. can be used to display trends, patterns, and relationships between two variables over time.
-Insights :
+
+**Insights** :
 Bike rentals exhibit a clear seasonal pattern, with higher rates during summer (June, July, and August) and lower rates during winter (December, January, and February).
 From March to June, bike rentals steadily increase, 
 Although bike rentals are lower during the December holiday season compared to summer, they are still higher than during the winter months.
-Business impact : 
+
+**Business impact** : 
 Analyzing the relationship between weather conditions and rental counts, as well as identifying peak rental times and locations, can help optimize bike rental inventory, staffing, and marketing strategies. This optimization can have a positive impact on the business.
 
-
-
-
-
-
 # Chart - 4 visualization code
-Reason for picking chart : 
+**Reason for picking chart** : 
 Histograms show the distribution of one variable, while scatter plots reveal the relationship between two continuous variables.
-Insight : 
+
+**Insight** : 
 The histogram shows that the data is skewed to the right, indicating that most of the bike rental counts are lower.
 the top-right scatter plot shows a positive correlation between temperature and the number of rented bikes. This means that as the temperature increases, the number of bike rentals also increases.
  bottom-left scatter plot shows a negative correlation between humidity and the number of rented bikes. This means that as the humidity increases, the number of bike rentals decreases.
 The bottom-right scatter plot shows a weak negative correlation between wind speed and the number of rented bikes. This means that as wind speed increases, the number of bike rentals slightly decreases.
-Business impact :
+
+**Business impact** :
 the bike rental company could use this information to optimize its marketing and advertising strategies to attract more customers during certain weather conditions.
 # Chart - 5 Count of bike rentals per Hour
-Reason for picking this chart: : bar plot is a good choice when we want to compare the values of a categorical variable (hour of the day) with the values of a numerical variable (rented bike count).
-Insight : 
+**Reason for picking this chart** : bar plot is a good choice when we want to compare the values of a categorical variable (hour of the day) with the values of a numerical variable (rented bike count).
+
+**Insight**: 
 The bike rental count is highest during peak commuting hours (8 AM and 7 PM), which is indicative of increased bike usage during typical work or school travel times.
 The bike rental count is lowest during non-peak hours (2 AM to 5 AM) as expected.
 There is a recurring pattern in the bike rental count, with peaks during morning and evening rush hours and lows during late night/early morning hours.
-Business impact : This information can assist in identifying the busiest periods for bike rentals, which can be valuable for making staffing, bike maintenance, and pricing decisions.
+
+**Business impact** : This information can assist in identifying the busiest periods for bike rentals, which can be valuable for making staffing, bike maintenance, and pricing decisions.
 # Chart 6: Count of bike rentals on holidays or not
-Reason for picking chart :  bar plot is a good choice when we wants to comparing the values of a categorical variable (holidays and non-holidays) with the values of a numerical variable(rented bike count) .
-Insight : 
+**Reason for picking chart** :  bar plot is a good choice when we wants to comparing the values of a categorical variable (holidays and non-holidays) with the values of a numerical variable(rented bike count) .
+
+**Insight** : 
 The observation from the chart indicates that bike rentals are more prevalent on regular days rather than on holidays.
 This indicates that individuals are more inclined to utilize bike for their daily commutes or leisure pursuits rather than for transportation during holidays.
-Business Impact :  there is lower demand for bike rentals on holidays, and a business may need to adjust their operations and marketing strategies accordingly.
+
+**Business Impact** :  there is lower demand for bike rentals on holidays, and a business may need to adjust their operations and marketing strategies accordingly.
 # Chart 7: Count of bike rentals by Seasons
-Reason for chart : The Barchart provides a clear and visually appealing way to explore the relationship between weather, time of day, and bike rental demand.
-Insight : 
+**Reason for chart** : The Barchart provides a clear and visually appealing way to explore the relationship between weather, time of day, and bike rental demand.
+
+**Insight** : 
 There are variations in bike rental patterns among different seasons, with certain seasons experiencing higher rental counts compared to others. The summer season has the highest rental counts.
 There are also variations in bike rental patterns throughout the day, with clear peak rental times. The highest rental counts occur at 8 AM and 7 PM.
 There could be potential interactions between seasons and different times of the day, where specific seasons are more favorable for bike rentals during specific time periods.
-Business Impact : By analyzing the differences in bike rental patterns across seasons and times of the day, businesses can optimize their operations, improve customer satisfaction, and maximize revenue potential.
+
+**Business Impact** : By analyzing the differences in bike rental patterns across seasons and times of the day, businesses can optimize their operations, improve customer satisfaction, and maximize revenue potential.
 # Chart 8: Count of bike rentals by temperature
-Chart reason : A line plot is a good choice when you want to visualize the trend or relationship between two continuous variables.
-Insight : 
+**Chart reason** : A line plot is a good choice when you want to visualize the trend or relationship between two continuous variables.
+
+**Insight** : 
 There appears to be a positive relationship between temperature and bike rental count, suggesting that higher temperatures are associated with increased bike rentals.
 The chart may also identify any outliers or anomalies in the data, such as unusually high or low rental counts associated with specific temperature values.
-Business Impact : offering promotions during periods of increase in temperatures to incentivize bike rentals or allocating more resources to locations where temperature has a stronger impact on rental demand.
+
+**Business Impac**t : offering promotions during periods of increase in temperatures to incentivize bike rentals or allocating more resources to locations where temperature has a stronger impact on rental demand.
 # Chart 9: Count of bike rentals by humidity
-Why line plot : Line plots allow us to easily identify trends and patterns in the data.
-Insights : 
+**Why line plot** : Line plots allow us to easily identify trends and patterns in the data.
+
+**Insights** : 
 higher humidity levels possibly leading to lower bike rental demand.
 A potential threshold effect, once the threshold is crossed, there is a rapid decrease in bike rental demand.
-Business Impact : the company can make informed decisions to optimize their operations and improve their service, potentially resulting in increased revenue and customer satisfaction
+
+**Business Impact** : the company can make informed decisions to optimize their operations and improve their service, potentially resulting in increased revenue and customer satisfaction
 # Chart 10: Count of bike rentals by wind speed
-Why line plot : Line plots can be used to visualize relationships between two or more variables, such as positive, negative, or no correlation.
-Insight : 
+**Why line plot** : Line plots can be used to visualize relationships between two or more variables, such as positive, negative, or no correlation.
+
+**Insight** : 
 The relationship between wind speed and bike rentals is not very strong, as indicated by the relatively flat trendline.
 a slight decrease in bike rentals as wind speed increases from 0 to around 8 m/s.
 There may be some outliers in the data,
-Business Impact : Businesses should have backup plans and adaptable marketing strategies to handle unfavorable weather conditions. They can offer alternative services and provide weather-related information to customers.This helps maintain customer satisfaction and revenue streams during challenging weather conditions.
+
+**Business Impact**: Businesses should have backup plans and adaptable marketing strategies to handle unfavorable weather conditions. They can offer alternative services and provide weather-related information to customers.This helps maintain customer satisfaction and revenue streams during challenging weather conditions.
 # Chart 11: Scatter plot of bike rentals by temperature and humidity
-Why scatter plot :  to visualize the relationship between two continuous variables, such as temperature and bike rental count.
-Insight : 
+**Why scatter plot** :  to visualize the relationship between two continuous variables, such as temperature and bike rental count.
+
+**Insight** : 
 Temperature and bike rentals have a positive relationship, meaning that as temperature increases, bike rental counts also tend to increase.
 The strength of the relationship between temperature and bike rentals varies across seasons.
 The chart can also highlight outliers or abnormal patterns in the data that may require further exploration.
-Business Impact : 
+
+**Business Impact** : 
 during warmer seasons, bike-sharing companies may consider increasing their prices, as demand for bike rentals may be higher.
 in certain seasons at specific temperature ranges, bike-sharing companies may adjust their fleet size or marketing strategies to better cater to those seasonal trends.
 # Chart 12: Scatter plot of bike rentals by temperature and wind speed
-Why scatter plot: to visualize the relationship between two continuous variables, such as (Temperature and Wind speed) and the target variable (Bike rentals).
-Insight : 
+**Why scatter plot**: to visualize the relationship between two continuous variables, such as (Temperature and Wind speed) and the target variable (Bike rentals).
+
+**Insight**: 
 Bike rentals are higher at certain temperature and wind speed ranges.
 The impact of temperature and wind speed on bike rentals can vary across seasons. In Winter, temperature may have a stronger influence than wind speed, whereas in Summer, wind speed may play a more significant role.
-Business Impact : 
+
+**Business Impact** : 
 This knowledge aids in resource allocation, ensuring sufficient bike availability during high-demand periods and optimizing operational efficiency.
 during seasons when wind speed is more important, promotional strategies can emphasize the advantages of biking with tailwinds or offer incentives for riding on windy days.
 
-# Chart - 13 Count of bike rentals per month
-Why bar plot ; Bcz it is a common and powerful visualization tool used to display numerical data across categories or groups.
-Insight : 
+# Chart - 13 Count of bike rentals per month**
+**Why bar plot** : Bcz it is a common and powerful visualization tool used to display numerical data across categories or groups.
+
+**Insight** : 
 Bike sharing demand is Higher during summer, slightly decreases during the rainy season, and makes constant for the winter season.
-Business impact : They can focus their marketing efforts on the months with lower rental counts to increase awareness and generate more demand.
-Chart - 14 - Correlation Heatmap
-Why Correlation heatmap : Heatmaps are commonly used to show correlations between variables.The annotations on the heatmap show the actual correlation coefficients.
-Insight : 
+
+**Business impact** : They can focus their marketing efforts on the months with lower rental counts to increase awareness and generate more demand.
+# Chart - 14 - Correlation Heatmap
+**Why Correlation heatmap** : Heatmaps are commonly used to show correlations between variables.The annotations on the heatmap show the actual correlation coefficients.
+
+**Insight** : 
 The Dew Point Temperature and Temperature variables show a strong correlation with each other.
 Certain variables exhibit strong positive or negative correlations with the target variable, Rented Bike Count. These variables are influential in predicting bike rental demand.
 Some variables display high correlation with each other, indicating redundancy or strong relationships. Removing these variables can reduce multicollinearity in the model.
 Certain variables have weak or no correlation with other variables in the dataset, suggesting they have minimal impact on bike rental demand. Removing these variables simplifies the analysis.
 # Chart - 15 - Pair Plot
-Why pair plot : we can visualize the relationships between variables in the dataset and observe how these relationships vary across different hours of the day.
+**Why pair plot** : we can visualize the relationships between variables in the dataset and observe how these relationships vary across different hours of the day.
 This allows us to detect any patterns or trends between the variables and understand their dependence on the time of day.
-Insight : 
+
+**Insight** : 
 The relationship between temperature and bike rentals, high
 The relationship between humidity and bike rentals, low
 The relationship between wind speed and bike rentals low
