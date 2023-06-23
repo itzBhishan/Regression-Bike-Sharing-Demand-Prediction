@@ -51,8 +51,8 @@ What all manipulations have you done and insights you found?
 By performing these data transformations, the code prepares the dataset for further analysis by converting datetime-related information into separate features and ensuring appropriate data types for categorical variables.
 
 
-Data Visualization,
-Chat 1: Univariate Analysis of Target Variable
+# Data Visualization,
+# Chat 1: Univariate Analysis of Target Variable
 Reason for picking the chart: histograms provide a visual representation of the distribution of a dataset, helping us understand the underlying patterns, identify outliers, and make informed decisions during data exploration and modeling.
 INSIGHT : 
 Right-skewed distribution of the target variable, bikes fell towards the lower end of the scale, with a few exceptions having a high rental count.
@@ -63,7 +63,7 @@ Business impact: by understanding the patterns and characteristics of bike renta
 
 
 
-2)# Chart 2: Count of bike rentals per season
+# Chart 2: Count of bike rentals per season
 Reason for picking the chart: Using a bar plot allows for a clear representation of the distribution of bike rentals across different seasons, making it easier to identify any seasonal trends or differences in rental counts.
 	Insights : 
 Bike rentals were highest during the summer season, with autumn, spring, and winter following in descending order.
@@ -71,7 +71,7 @@ The season has a substantial influence on bike rental counts, presenting an oppo
 Business impact: 
 Positive Impact: when bike rentals are at their highest during the peak season can help businesses plan their marketing initiatives.
 In terms of negative development, it's possible that the data analysis's insights will point out areas where the company isn't performing as well as it should.
-Chart 3: Count of bike rentals per month
+# Chart 3: Count of bike rentals per month
 Reason for picking chart : 
 Line chat display data points connected by a line. can be used to display trends, patterns, and relationships between two variables over time.
 Insights :
@@ -153,9 +153,6 @@ Business Impact :
 This knowledge aids in resource allocation, ensuring sufficient bike availability during high-demand periods and optimizing operational efficiency.
 during seasons when wind speed is more important, promotional strategies can emphasize the advantages of biking with tailwinds or offer incentives for riding on windy days.
 
-
-
-
 # Chart - 13 Count of bike rentals per month
 Why bar plot ; Bcz it is a common and powerful visualization tool used to display numerical data across categories or groups.
 Insight : 
@@ -168,7 +165,7 @@ The Dew Point Temperature and Temperature variables show a strong correlation wi
 Certain variables exhibit strong positive or negative correlations with the target variable, Rented Bike Count. These variables are influential in predicting bike rental demand.
 Some variables display high correlation with each other, indicating redundancy or strong relationships. Removing these variables can reduce multicollinearity in the model.
 Certain variables have weak or no correlation with other variables in the dataset, suggesting they have minimal impact on bike rental demand. Removing these variables simplifies the analysis.
-Chart - 15 - Pair Plot
+# Chart - 15 - Pair Plot
 Why pair plot : we can visualize the relationships between variables in the dataset and observe how these relationships vary across different hours of the day.
 This allows us to detect any patterns or trends between the variables and understand their dependence on the time of day.
 Insight : 
@@ -176,7 +173,7 @@ The relationship between temperature and bike rentals, high
 The relationship between humidity and bike rentals, low
 The relationship between wind speed and bike rentals low
 The differences in these relationships across different seasons.
-Hypothesis Testing
+# Hypothesis Testing
 The code provided demonstrates three hypothesis tests performed on the dataset.
 1) Hypothesis Test : Comparison of Mean Bike Rentals between Functional and     Non-Functional Days.
 -Null hypothesis: There is no significant difference in the mean number of bike rentals between functional and non-functional days.
@@ -216,7 +213,7 @@ the 'train_df' DataFrame exists, and the specified columns ('Temperature(°C)', 
 Dimesionality Reduction: it does not require dimensionality reduction, you can proceed without applying such techniques. 
 Data Splitting : Splitting the data into training and testing sets is an important step in machine learning. The training set is used to train the model, while the testing set is used to evaluate the model's performance on unseen data. The choice of the splitting ratio depends on various factors, such as the size of the dataset and the specific requirements of the analysis. In this case, a test_size of 0.2 indicates an 80:20 split, which is a commonly used ratio. Adjusting the test_size value allows you to control the trade-off between the size of the training set and the size of the testing set.
 Handling Imbalanced Dataset :
-ML Model - 1---RandomForestRegressor
+# ML Model - 1---RandomForestRegressor
 Basically, this code provides a basic implementation of a Random Forest regression model for prediction and evaluation. You can further enhance the model by tuning hyperparameters, performing cross-validation, and exploring other evaluation metrics based on your specific needs and the characteristics of the dataset.
  A Random Forest Regressor object is created with 100 estimators (decision trees) using the `RandomForestRegressor` class from `sklearn.ensemble`.
 - The model is trained on the training data using the `fit` method.
@@ -225,7 +222,7 @@ Basically, this code provides a basic implementation of a Random Forest regressi
 - The MSE and R-squared values are printed to assess the model's performance.
  R-square value is 0.9801.
 This suggests that the model is a good fit for the data and is performing well in predicting the number of bikes rented during a given hour.
-ML Model - 2: XGBRegressor
+# ML Model - 2: XGBRegressor
 
 - XGBRegressor is a machine learning model based on the gradient boosting algorithm using the XGBoost library.
 - Similar to the Random Forest Regressor, the dataset is split into training and testing sets.
@@ -235,7 +232,7 @@ ML Model - 2: XGBRegressor
 - MSE and R-squared are calculated to evaluate the model's performance.
 - The evaluation metrics are plotted using a bar chart.
 
- ML Model - 3: GradientBoostingRegressor
+# ML Model - 3: GradientBoostingRegressor
 
 - GradientBoostingRegressor is another machine learning model based on the gradient boosting algorithm from the `sklearn.ensemble` module.
 - The dataset is split into training and testing sets.
