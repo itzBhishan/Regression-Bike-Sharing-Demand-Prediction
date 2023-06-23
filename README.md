@@ -246,7 +246,7 @@ This suggests that the model is a good fit for the data and is performing well i
 
 For all three models, the evaluation metrics provide an indication of how well the models perform. Lower values of MSE and MAE indicate better predictive accuracy, while a higher R-squared value (closer to 1) indicates a better fit of the model to the data. The bar charts visualize the evaluation metric scores for easy comparison between the models.
 
-Conclusion : 
+# Conclusion : 
 The combination of the dataset, machine learning techniques, and analysis provides valuable insights into the factors driving bike rental demand and demonstrates the power of machine learning in understanding and predicting complex phenomena.
 
 
