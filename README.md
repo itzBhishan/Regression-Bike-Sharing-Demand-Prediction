@@ -1,7 +1,8 @@
 # Regression-Bike-Sharing-Demand-Prediction
 
 
-# Project Overview: This project seeks to utilize regression analysis techniques to forecast the demand for bike sharing services, considering multiple factors. By examining past data and constructing a predictive model, we aim to offer valuable insights and predictions to assist bike sharing companies in making informed decisions and enhancing their operational efficiency.
+# Project Overview: 
+This project seeks to utilize regression analysis techniques to forecast the demand for bike sharing services, considering multiple factors. By examining past data and constructing a predictive model, we aim to offer valuable insights and predictions to assist bike sharing companies in making informed decisions and enhancing their operational efficiency.
 
 
 # Problem Statement: 
@@ -13,7 +14,7 @@ This section includes the necessary libraries and packages imported for data ana
 # Dataset Loading :
 load a data set from a Google Drive location using Google Colab. It mounts Google Drive and then reads the CSV file named "SeoulBikeData.csv" using pd.read_csv() from the pandas library. 
  
- .sample is used to display the random rows .
+.sample is used to display the random rows .
 Data.shape is used to display the no of rows and col.The dataset contains 8760 rows and 14 columns’
 # Dataset information : 
 To provide detailed information about the dataset, we can use the data.info() method. It provides an overview of the columns, their data types, and the number of non-null values.
